@@ -1,0 +1,1531 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Sarah",
+      "lastName": "Mitchell",
+      "email": "sarah.mitchell@salesforge.com",
+      "role": "Sales Manager",
+      "department": "Sales",
+      "phone": "+1-555-0123",
+      "territory": "North America - West",
+      "hireDate": "2019-03-15",
+      "quota": 1200000,
+      "avatar": "https://i.pravatar.cc/150?img=1",
+      "active": true
+    },
+    {
+      "id": 2,
+      "firstName": "James",
+      "lastName": "Rodriguez",
+      "email": "james.rodriguez@salesforge.com",
+      "role": "Senior Account Executive",
+      "department": "Sales",
+      "phone": "+1-555-0124",
+      "territory": "North America - East",
+      "hireDate": "2020-07-22",
+      "quota": 950000,
+      "avatar": "https://i.pravatar.cc/150?img=2",
+      "active": true
+    },
+    {
+      "id": 3,
+      "firstName": "Emily",
+      "lastName": "Chen",
+      "email": "emily.chen@salesforge.com",
+      "role": "Account Executive",
+      "department": "Sales",
+      "phone": "+1-555-0125",
+      "territory": "North America - Central",
+      "hireDate": "2021-01-10",
+      "quota": 750000,
+      "avatar": "https://i.pravatar.cc/150?img=3",
+      "active": true
+    },
+    {
+      "id": 4,
+      "firstName": "Michael",
+      "lastName": "Thompson",
+      "email": "michael.thompson@salesforge.com",
+      "role": "Customer Success Manager",
+      "department": "Customer Success",
+      "phone": "+1-555-0126",
+      "territory": "Global",
+      "hireDate": "2018-11-05",
+      "quota": 0,
+      "avatar": "https://i.pravatar.cc/150?img=4",
+      "active": true
+    },
+    {
+      "id": 5,
+      "firstName": "Lisa",
+      "lastName": "Anderson",
+      "email": "lisa.anderson@salesforge.com",
+      "role": "Sales Development Rep",
+      "department": "Sales",
+      "phone": "+1-555-0127",
+      "territory": "North America - West",
+      "hireDate": "2022-06-01",
+      "quota": 400000,
+      "avatar": "https://i.pravatar.cc/150?img=5",
+      "active": true
+    }
+  ],
+  "companies": [
+    {
+      "id": 101,
+      "name": "TechVision Solutions Inc.",
+      "industry": "Software & Technology",
+      "size": "501-1000",
+      "revenue": "$50M - $100M",
+      "website": "https://techvisionsolutions.com",
+      "phone": "+1-555-1001",
+      "address": {
+        "street": "1250 Innovation Drive",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip": "94105",
+        "country": "United States"
+      },
+      "accountOwner": 1,
+      "status": "Customer",
+      "tags": [
+        "Enterprise",
+        "Strategic Account",
+        "Tech"
+      ],
+      "createdDate": "2020-05-12",
+      "lastContactDate": "2024-01-10",
+      "description": "Leading provider of cloud-based enterprise solutions for data analytics and business intelligence.",
+      "parentCompany": null,
+      "linkedInUrl": "https://linkedin.com/company/techvisionsolutions"
+    },
+    {
+      "id": 102,
+      "name": "Global Manufacturing Corp",
+      "industry": "Manufacturing",
+      "size": "1001-5000",
+      "revenue": "$500M - $1B",
+      "website": "https://globalmanufacturing.com",
+      "phone": "+1-555-1002",
+      "address": {
+        "street": "8800 Industrial Parkway",
+        "city": "Detroit",
+        "state": "MI",
+        "zip": "48201",
+        "country": "United States"
+      },
+      "accountOwner": 2,
+      "status": "Customer",
+      "tags": [
+        "Enterprise",
+        "Manufacturing",
+        "Fortune 1000"
+      ],
+      "createdDate": "2019-08-20",
+      "lastContactDate": "2024-01-12",
+      "description": "International manufacturing conglomerate specializing in automotive components and industrial equipment.",
+      "parentCompany": null,
+      "linkedInUrl": "https://linkedin.com/company/globalmanufacturing"
+    },
+    {
+      "id": 103,
+      "name": "HealthFirst Medical Systems",
+      "industry": "Healthcare",
+      "size": "201-500",
+      "revenue": "$20M - $50M",
+      "website": "https://healthfirstmedical.com",
+      "phone": "+1-555-1003",
+      "address": {
+        "street": "455 Medical Center Boulevard",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "02115",
+        "country": "United States"
+      },
+      "accountOwner": 3,
+      "status": "Prospect",
+      "tags": [
+        "Healthcare",
+        "Mid-Market",
+        "High Priority"
+      ],
+      "createdDate": "2023-11-15",
+      "lastContactDate": "2024-01-08",
+      "description": "Regional healthcare provider network offering integrated medical services and health management solutions.",
+      "parentCompany": null,
+      "linkedInUrl": "https://linkedin.com/company/healthfirstmedical"
+    },
+    {
+      "id": 104,
+      "name": "Retail Dynamics LLC",
+      "industry": "Retail",
+      "size": "51-200",
+      "revenue": "$10M - $20M",
+      "website": "https://retaildynamics.com",
+      "phone": "+1-555-1004",
+      "address": {
+        "street": "2200 Commerce Street",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60614",
+        "country": "United States"
+      },
+      "accountOwner": 5,
+      "status": "Lead",
+      "tags": [
+        "Retail",
+        "SMB",
+        "E-commerce"
+      ],
+      "createdDate": "2023-12-01",
+      "lastContactDate": "2024-01-05",
+      "description": "Fast-growing omnichannel retailer with focus on sustainable consumer goods.",
+      "parentCompany": null,
+      "linkedInUrl": "https://linkedin.com/company/retaildynamics"
+    },
+    {
+      "id": 105,
+      "name": "Financial Services Group",
+      "industry": "Financial Services",
+      "size": "1001-5000",
+      "revenue": "$1B+",
+      "website": "https://financialservicesgroup.com",
+      "phone": "+1-555-1005",
+      "address": {
+        "street": "350 Park Avenue",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10022",
+        "country": "United States"
+      },
+      "accountOwner": 2,
+      "status": "Customer",
+      "tags": [
+        "Enterprise",
+        "Financial",
+        "Strategic Account"
+      ],
+      "createdDate": "2018-03-10",
+      "lastContactDate": "2024-01-11",
+      "description": "Leading financial services firm providing investment banking, wealth management, and insurance solutions.",
+      "parentCompany": null,
+      "linkedInUrl": "https://linkedin.com/company/financialservicesgroup"
+    },
+    {
+      "id": 106,
+      "name": "EduTech Innovations",
+      "industry": "Education Technology",
+      "size": "51-200",
+      "revenue": "$5M - $10M",
+      "website": "https://edutechinnovations.com",
+      "phone": "+1-555-1006",
+      "address": {
+        "street": "1500 University Avenue",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "78701",
+        "country": "United States"
+      },
+      "accountOwner": 3,
+      "status": "Prospect",
+      "tags": [
+        "EdTech",
+        "SMB",
+        "SaaS"
+      ],
+      "createdDate": "2023-10-20",
+      "lastContactDate": "2024-01-09",
+      "description": "Educational technology startup developing AI-powered learning platforms for K-12 schools.",
+      "parentCompany": null,
+      "linkedInUrl": "https://linkedin.com/company/edutechinnovations"
+    }
+  ],
+  "contacts": [
+    {
+      "id": 201,
+      "firstName": "David",
+      "lastName": "Martinez",
+      "title": "Chief Technology Officer",
+      "email": "d.martinez@techvisionsolutions.com",
+      "phone": "+1-555-2001",
+      "mobile": "+1-555-2101",
+      "companyId": 101,
+      "ownerId": 1,
+      "isPrimary": true,
+      "status": "Active",
+      "tags": [
+        "Decision Maker",
+        "Technical",
+        "C-Level"
+      ],
+      "linkedInUrl": "https://linkedin.com/in/davidmartinez",
+      "createdDate": "2020-05-12",
+      "lastContactDate": "2024-01-10",
+      "birthDate": "1978-06-15",
+      "department": "Technology",
+      "address": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      }
+    },
+    {
+      "id": 202,
+      "firstName": "Jennifer",
+      "lastName": "Williams",
+      "title": "VP of Operations",
+      "email": "j.williams@techvisionsolutions.com",
+      "phone": "+1-555-2002",
+      "mobile": "+1-555-2102",
+      "companyId": 101,
+      "ownerId": 1,
+      "isPrimary": false,
+      "status": "Active",
+      "tags": [
+        "Influencer",
+        "Operations"
+      ],
+      "linkedInUrl": "https://linkedin.com/in/jenniferwilliams",
+      "createdDate": "2020-06-20",
+      "lastContactDate": "2024-01-08",
+      "birthDate": "1982-03-22",
+      "department": "Operations",
+      "address": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      }
+    },
+    {
+      "id": 203,
+      "firstName": "Robert",
+      "lastName": "Johnson",
+      "title": "Director of Procurement",
+      "email": "r.johnson@globalmanufacturing.com",
+      "phone": "+1-555-2003",
+      "mobile": "+1-555-2103",
+      "companyId": 102,
+      "ownerId": 2,
+      "isPrimary": true,
+      "status": "Active",
+      "tags": [
+        "Decision Maker",
+        "Procurement"
+      ],
+      "linkedInUrl": "https://linkedin.com/in/robertjohnson",
+      "createdDate": "2019-08-20",
+      "lastContactDate": "2024-01-12",
+      "birthDate": "1975-11-08",
+      "department": "Procurement",
+      "address": {
+        "city": "Detroit",
+        "state": "MI",
+        "country": "United States"
+      }
+    },
+    {
+      "id": 204,
+      "firstName": "Susan",
+      "lastName": "Davis",
+      "title": "Chief Financial Officer",
+      "email": "s.davis@globalmanufacturing.com",
+      "phone": "+1-555-2004",
+      "mobile": "+1-555-2104",
+      "companyId": 102,
+      "ownerId": 2,
+      "isPrimary": false,
+      "status": "Active",
+      "tags": [
+        "Decision Maker",
+        "Finance",
+        "C-Level"
+      ],
+      "linkedInUrl": "https://linkedin.com/in/susandavis",
+      "createdDate": "2020-01-15",
+      "lastContactDate": "2024-01-11",
+      "birthDate": "1980-09-14",
+      "department": "Finance",
+      "address": {
+        "city": "Detroit",
+        "state": "MI",
+        "country": "United States"
+      }
+    },
+    {
+      "id": 205,
+      "firstName": "Dr. Patricia",
+      "lastName": "Brown",
+      "title": "Chief Medical Officer",
+      "email": "p.brown@healthfirstmedical.com",
+      "phone": "+1-555-2005",
+      "mobile": "+1-555-2105",
+      "companyId": 103,
+      "ownerId": 3,
+      "isPrimary": true,
+      "status": "Active",
+      "tags": [
+        "Decision Maker",
+        "Healthcare",
+        "C-Level"
+      ],
+      "linkedInUrl": "https://linkedin.com/in/patriciabrown",
+      "createdDate": "2023-11-15",
+      "lastContactDate": "2024-01-08",
+      "birthDate": "1976-04-30",
+      "department": "Medical",
+      "address": {
+        "city": "Boston",
+        "state": "MA",
+        "country": "United States"
+      }
+    },
+    {
+      "id": 206,
+      "firstName": "Michael",
+      "lastName": "Taylor",
+      "title": "IT Director",
+      "email": "m.taylor@healthfirstmedical.com",
+      "phone": "+1-555-2006",
+      "mobile": "+1-555-2106",
+      "companyId": 103,
+      "ownerId": 3,
+      "isPrimary": false,
+      "status": "Active",
+      "tags": [
+        "Technical",
+        "IT"
+      ],
+      "linkedInUrl": "https://linkedin.com/in/michaeltaylor",
+      "createdDate": "2023-11-20",
+      "lastContactDate": "2024-01-07",
+      "birthDate": "1985-07-19",
+      "department": "IT",
+      "address": {
+        "city": "Boston",
+        "state": "MA",
+        "country": "United States"
+      }
+    },
+    {
+      "id": 207,
+      "firstName": "Amanda",
+      "lastName": "Garcia",
+      "title": "Chief Operating Officer",
+      "email": "a.garcia@retaildynamics.com",
+      "phone": "+1-555-2007",
+      "mobile": "+1-555-2107",
+      "companyId": 104,
+      "ownerId": 5,
+      "isPrimary": true,
+      "status": "Active",
+      "tags": [
+        "Decision Maker",
+        "Operations",
+        "C-Level"
+      ],
+      "linkedInUrl": "https://linkedin.com/in/amandagarcia",
+      "createdDate": "2023-12-01",
+      "lastContactDate": "2024-01-05",
+      "birthDate": "1981-12-03",
+      "department": "Operations",
+      "address": {
+        "city": "Chicago",
+        "state": "IL",
+        "country": "United States"
+      }
+    },
+    {
+      "id": 208,
+      "firstName": "Christopher",
+      "lastName": "Lee",
+      "title": "Managing Director",
+      "email": "c.lee@financialservicesgroup.com",
+      "phone": "+1-555-2008",
+      "mobile": "+1-555-2108",
+      "companyId": 105,
+      "ownerId": 2,
+      "isPrimary": true,
+      "status": "Active",
+      "tags": [
+        "Decision Maker",
+        "Executive",
+        "C-Level"
+      ],
+      "linkedInUrl": "https://linkedin.com/in/christopherlee",
+      "createdDate": "2018-03-10",
+      "lastContactDate": "2024-01-11",
+      "birthDate": "1972-02-28",
+      "department": "Executive",
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      }
+    },
+    {
+      "id": 209,
+      "firstName": "Michelle",
+      "lastName": "White",
+      "title": "VP of Technology",
+      "email": "m.white@financialservicesgroup.com",
+      "phone": "+1-555-2009",
+      "mobile": "+1-555-2109",
+      "companyId": 105,
+      "ownerId": 2,
+      "isPrimary": false,
+      "status": "Active",
+      "tags": [
+        "Influencer",
+        "Technical"
+      ],
+      "linkedInUrl": "https://linkedin.com/in/michellewhite",
+      "createdDate": "2019-05-22",
+      "lastContactDate": "2024-01-09",
+      "birthDate": "1979-08-11",
+      "department": "Technology",
+      "address": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      }
+    },
+    {
+      "id": 210,
+      "firstName": "Daniel",
+      "lastName": "Harris",
+      "title": "Founder & CEO",
+      "email": "d.harris@edutechinnovations.com",
+      "phone": "+1-555-2010",
+      "mobile": "+1-555-2110",
+      "companyId": 106,
+      "ownerId": 3,
+      "isPrimary": true,
+      "status": "Active",
+      "tags": [
+        "Decision Maker",
+        "Founder",
+        "C-Level"
+      ],
+      "linkedInUrl": "https://linkedin.com/in/danielharris",
+      "createdDate": "2023-10-20",
+      "lastContactDate": "2024-01-09",
+      "birthDate": "1986-05-17",
+      "department": "Executive",
+      "address": {
+        "city": "Austin",
+        "state": "TX",
+        "country": "United States"
+      }
+    }
+  ],
+  "opportunities": [
+    {
+      "id": 301,
+      "name": "TechVision - Platform Upgrade 2024",
+      "companyId": 101,
+      "contactId": 201,
+      "ownerId": 1,
+      "amount": 297000,
+      "stage": "Negotiation",
+      "probability": 80,
+      "expectedCloseDate": "2024-02-15",
+      "type": "Upsell",
+      "source": "Existing Customer",
+      "createdDate": "2023-11-01",
+      "lastActivityDate": "2024-01-10",
+      "description": "Annual platform upgrade including new analytics modules and expanded user licenses for 500+ users.",
+      "nextSteps": "Final contract review with legal team, pending approval from CFO",
+      "competitorInfo": "Considering Competitor X, but our integration capabilities are stronger",
+      "tags": [
+        "Strategic",
+        "Renewal",
+        "High Value"
+      ]
+    },
+    {
+      "id": 302,
+      "name": "Global Manufacturing - Digital Transformation",
+      "companyId": 102,
+      "contactId": 203,
+      "ownerId": 2,
+      "amount": 697250,
+      "stage": "Proposal",
+      "probability": 60,
+      "expectedCloseDate": "2024-03-30",
+      "type": "New Business",
+      "source": "Referral",
+      "createdDate": "2023-10-15",
+      "lastActivityDate": "2024-01-12",
+      "description": "Comprehensive digital transformation initiative covering supply chain optimization, IoT integration, and predictive maintenance solutions.",
+      "nextSteps": "Presenting ROI analysis to executive committee on Jan 25th",
+      "competitorInfo": "Competing against two major vendors, differentiated by our manufacturing expertise",
+      "tags": [
+        "Enterprise",
+        "Strategic",
+        "Multi-Year"
+      ]
+    },
+    {
+      "id": 303,
+      "name": "HealthFirst - EMR Integration Project",
+      "companyId": 103,
+      "contactId": 205,
+      "ownerId": 3,
+      "amount": 185000,
+      "stage": "Discovery",
+      "probability": 40,
+      "expectedCloseDate": "2024-04-20",
+      "type": "New Business",
+      "source": "Inbound Lead",
+      "createdDate": "2023-12-10",
+      "lastActivityDate": "2024-01-08",
+      "description": "Integration of our platform with their existing EMR system to improve patient data analytics and reporting capabilities.",
+      "nextSteps": "Technical discovery session scheduled for Jan 22nd with IT team",
+      "competitorInfo": "Early stage, no known competitors yet",
+      "tags": [
+        "Healthcare",
+        "Integration",
+        "Compliance"
+      ]
+    },
+    {
+      "id": 304,
+      "name": "Retail Dynamics - E-commerce Analytics Platform",
+      "companyId": 104,
+      "contactId": 207,
+      "ownerId": 5,
+      "amount": 75000,
+      "stage": "Qualification",
+      "probability": 25,
+      "expectedCloseDate": "2024-05-10",
+      "type": "New Business",
+      "source": "Cold Outreach",
+      "createdDate": "2023-12-20",
+      "lastActivityDate": "2024-01-05",
+      "description": "Real-time e-commerce analytics and customer behavior tracking platform to optimize online sales.",
+      "nextSteps": "Follow-up call to discuss budget and timeline",
+      "competitorInfo": "Budget concerns, may need to offer SMB pricing tier",
+      "tags": [
+        "SMB",
+        "E-commerce",
+        "Analytics"
+      ]
+    },
+    {
+      "id": 305,
+      "name": "Financial Services - Compliance Suite Renewal",
+      "companyId": 105,
+      "contactId": 208,
+      "ownerId": 2,
+      "amount": 890000,
+      "stage": "Closed Won",
+      "probability": 100,
+      "expectedCloseDate": "2024-01-05",
+      "type": "Renewal",
+      "source": "Existing Customer",
+      "createdDate": "2023-09-01",
+      "lastActivityDate": "2024-01-05",
+      "description": "Three-year renewal of compliance and risk management suite with 15% expansion for new business units.",
+      "nextSteps": "Implementation kick-off scheduled for Jan 15th",
+      "competitorInfo": "No competition, strong relationship",
+      "tags": [
+        "Renewal",
+        "Financial Services",
+        "Compliance",
+        "Won"
+      ]
+    },
+    {
+      "id": 306,
+      "name": "EduTech - Learning Analytics Initial License",
+      "companyId": 106,
+      "contactId": 210,
+      "ownerId": 3,
+      "amount": 45000,
+      "stage": "Demo Scheduled",
+      "probability": 35,
+      "expectedCloseDate": "2024-03-15",
+      "type": "New Business",
+      "source": "Conference",
+      "createdDate": "2023-11-28",
+      "lastActivityDate": "2024-01-09",
+      "description": "Initial platform license for student learning analytics and outcome tracking for their pilot program.",
+      "nextSteps": "Product demo scheduled for Jan 18th",
+      "competitorInfo": "Two competitors in consideration, competing on features and price",
+      "tags": [
+        "EdTech",
+        "Pilot",
+        "Startup"
+      ]
+    },
+    {
+      "id": 307,
+      "name": "TechVision - Professional Services Engagement",
+      "companyId": 101,
+      "contactId": 202,
+      "ownerId": 1,
+      "amount": 125000,
+      "stage": "Closed Won",
+      "probability": 100,
+      "expectedCloseDate": "2023-12-28",
+      "type": "Services",
+      "source": "Existing Customer",
+      "createdDate": "2023-11-15",
+      "lastActivityDate": "2023-12-28",
+      "description": "Six-month professional services engagement for custom integration development and training.",
+      "nextSteps": "Project completed successfully",
+      "competitorInfo": "N/A - Existing customer add-on",
+      "tags": [
+        "Services",
+        "Training",
+        "Won"
+      ]
+    },
+    {
+      "id": 308,
+      "name": "Global Manufacturing - Pilot Program",
+      "companyId": 102,
+      "contactId": 204,
+      "ownerId": 2,
+      "amount": 95000,
+      "stage": "Closed Lost",
+      "probability": 0,
+      "expectedCloseDate": "2023-10-30",
+      "type": "New Business",
+      "source": "Partner",
+      "createdDate": "2023-07-10",
+      "lastActivityDate": "2023-11-05",
+      "description": "Initial pilot program for manufacturing floor analytics - lost due to budget constraints and timing.",
+      "nextSteps": "Re-engage in Q2 2024 when budget is refreshed",
+      "competitorInfo": "Lost to status quo - no vendor selected",
+      "tags": [
+        "Lost",
+        "Budget Issues",
+        "Re-engage"
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": 401,
+      "name": "Enterprise Analytics Platform",
+      "sku": "EAP-ENT-001",
+      "category": "Software",
+      "description": "Comprehensive analytics platform with real-time dashboards, predictive modeling, and custom reporting capabilities.",
+      "price": 50000,
+      "billingPeriod": "Annual",
+      "isActive": true,
+      "features": [
+        "Real-time data processing",
+        "Custom dashboards",
+        "Predictive analytics",
+        "API access",
+        "SSO integration",
+        "Advanced security"
+      ],
+      "tags": [
+        "Enterprise",
+        "Analytics",
+        "Cloud"
+      ]
+    },
+    {
+      "id": 402,
+      "name": "Professional Services - Implementation",
+      "sku": "PS-IMP-001",
+      "category": "Services",
+      "description": "Full implementation services including data migration, system integration, and user training.",
+      "price": 15000,
+      "billingPeriod": "One-time",
+      "isActive": true,
+      "features": [
+        "Project management",
+        "Data migration",
+        "Custom integrations",
+        "Training sessions",
+        "Documentation"
+      ],
+      "tags": [
+        "Services",
+        "Implementation",
+        "Training"
+      ]
+    },
+    {
+      "id": 403,
+      "name": "Advanced User License Pack (50 users)",
+      "sku": "LIC-ADV-050",
+      "category": "License",
+      "description": "Advanced user licenses with full platform access including admin capabilities.",
+      "price": 5000,
+      "billingPeriod": "Annual",
+      "isActive": true,
+      "features": [
+        "Full platform access",
+        "Admin capabilities",
+        "Advanced reporting",
+        "API access",
+        "Priority support"
+      ],
+      "tags": [
+        "License",
+        "Enterprise"
+      ]
+    },
+    {
+      "id": 404,
+      "name": "Compliance & Risk Management Module",
+      "sku": "CRM-MOD-001",
+      "category": "Software",
+      "description": "Specialized module for regulatory compliance tracking, risk assessment, and audit trail management.",
+      "price": 25000,
+      "billingPeriod": "Annual",
+      "isActive": true,
+      "features": [
+        "Compliance tracking",
+        "Risk assessment tools",
+        "Automated reporting",
+        "Audit trails",
+        "Regulatory updates"
+      ],
+      "tags": [
+        "Compliance",
+        "Financial Services",
+        "Healthcare"
+      ]
+    },
+    {
+      "id": 405,
+      "name": "IoT Integration Suite",
+      "sku": "IOT-INT-001",
+      "category": "Software",
+      "description": "Integration suite for IoT device connectivity, data collection, and real-time monitoring.",
+      "price": 35000,
+      "billingPeriod": "Annual",
+      "isActive": true,
+      "features": [
+        "Device connectivity",
+        "Real-time monitoring",
+        "Predictive maintenance",
+        "Alert management",
+        "Data analytics"
+      ],
+      "tags": [
+        "IoT",
+        "Manufacturing",
+        "Integration"
+      ]
+    },
+    {
+      "id": 406,
+      "name": "Basic User License Pack (25 users)",
+      "sku": "LIC-BAS-025",
+      "category": "License",
+      "description": "Basic user licenses with standard platform access and reporting features.",
+      "price": 2000,
+      "billingPeriod": "Annual",
+      "isActive": true,
+      "features": [
+        "Standard platform access",
+        "Basic reporting",
+        "Dashboard access",
+        "Standard support"
+      ],
+      "tags": [
+        "License",
+        "SMB"
+      ]
+    },
+    {
+      "id": 407,
+      "name": "Premium Support Package",
+      "sku": "SUP-PREM-001",
+      "category": "Support",
+      "description": "24/7 premium support with dedicated account manager and 1-hour response time SLA.",
+      "price": 12000,
+      "billingPeriod": "Annual",
+      "isActive": true,
+      "features": [
+        "24/7 support",
+        "Dedicated account manager",
+        "1-hour response time",
+        "Quarterly reviews",
+        "Priority bug fixes"
+      ],
+      "tags": [
+        "Support",
+        "Premium",
+        "Enterprise"
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": 501,
+      "type": "Call",
+      "subject": "Q1 Platform Upgrade Discussion",
+      "description": "Discussed TechVision's requirements for the Q1 platform upgrade. David confirmed budget approval and timeline. Next step is to schedule technical workshop.",
+      "companyId": 101,
+      "contactId": 201,
+      "opportunityId": 301,
+      "ownerId": 1,
+      "status": "Completed",
+      "priority": "High",
+      "dueDate": "2024-01-10",
+      "completedDate": "2024-01-10",
+      "duration": 45,
+      "outcome": "Successful",
+      "createdDate": "2024-01-09"
+    },
+    {
+      "id": 502,
+      "type": "Meeting",
+      "subject": "Executive Presentation - Digital Transformation",
+      "description": "Presented comprehensive digital transformation proposal to Global Manufacturing executive team. Positive reception, CFO had questions about ROI timeline.",
+      "companyId": 102,
+      "contactId": 203,
+      "opportunityId": 302,
+      "ownerId": 2,
+      "status": "Completed",
+      "priority": "High",
+      "dueDate": "2024-01-12",
+      "completedDate": "2024-01-12",
+      "duration": 90,
+      "outcome": "Successful",
+      "createdDate": "2024-01-05"
+    },
+    {
+      "id": 503,
+      "type": "Email",
+      "subject": "EMR Integration Technical Requirements",
+      "description": "Sent detailed technical questionnaire to understand current EMR system architecture and integration points. Awaiting response from IT team.",
+      "companyId": 103,
+      "contactId": 206,
+      "opportunityId": 303,
+      "ownerId": 3,
+      "status": "Completed",
+      "priority": "Medium",
+      "dueDate": "2024-01-08",
+      "completedDate": "2024-01-08",
+      "duration": 0,
+      "outcome": "Sent",
+      "createdDate": "2024-01-08"
+    },
+    {
+      "id": 504,
+      "type": "Call",
+      "subject": "Initial Discovery Call",
+      "description": "First conversation with Retail Dynamics COO. Discussed their e-commerce analytics needs and current pain points. Budget discussion needed.",
+      "companyId": 104,
+      "contactId": 207,
+      "opportunityId": 304,
+      "ownerId": 5,
+      "status": "Completed",
+      "priority": "Medium",
+      "dueDate": "2024-01-05",
+      "completedDate": "2024-01-05",
+      "duration": 30,
+      "outcome": "Successful",
+      "createdDate": "2024-01-04"
+    },
+    {
+      "id": 505,
+      "type": "Meeting",
+      "subject": "Contract Signing & Renewal Celebration",
+      "description": "Final contract signing for three-year renewal with Financial Services Group. Christopher Lee and team expressed satisfaction with partnership.",
+      "companyId": 105,
+      "contactId": 208,
+      "opportunityId": 305,
+      "ownerId": 2,
+      "status": "Completed",
+      "priority": "High",
+      "dueDate": "2024-01-05",
+      "completedDate": "2024-01-05",
+      "duration": 60,
+      "outcome": "Successful",
+      "createdDate": "2023-12-28"
+    },
+    {
+      "id": 506,
+      "type": "Demo",
+      "subject": "Product Demo - Learning Analytics Platform",
+      "description": "Scheduled product demonstration for EduTech Innovations. Will showcase student outcome tracking and engagement analytics features.",
+      "companyId": 106,
+      "contactId": 210,
+      "opportunityId": 306,
+      "ownerId": 3,
+      "status": "Scheduled",
+      "priority": "High",
+      "dueDate": "2024-01-18",
+      "completedDate": null,
+      "duration": 60,
+      "outcome": null,
+      "createdDate": "2024-01-09"
+    },
+    {
+      "id": 507,
+      "type": "Task",
+      "subject": "Prepare ROI Analysis for Global Manufacturing",
+      "description": "Create comprehensive ROI analysis including cost savings projections, efficiency gains, and implementation timeline for executive presentation.",
+      "companyId": 102,
+      "contactId": 204,
+      "opportunityId": 302,
+      "ownerId": 2,
+      "status": "In Progress",
+      "priority": "High",
+      "dueDate": "2024-01-20",
+      "completedDate": null,
+      "duration": 0,
+      "outcome": null,
+      "createdDate": "2024-01-13"
+    },
+    {
+      "id": 508,
+      "type": "Email",
+      "subject": "Follow-up: Technical Discovery Session",
+      "description": "Follow-up email to confirm technical discovery session with HealthFirst IT team. Sent agenda and list of required participants.",
+      "companyId": 103,
+      "contactId": 206,
+      "opportunityId": 303,
+      "ownerId": 3,
+      "status": "Completed",
+      "priority": "Medium",
+      "dueDate": "2024-01-09",
+      "completedDate": "2024-01-09",
+      "duration": 0,
+      "outcome": "Sent",
+      "createdDate": "2024-01-09"
+    },
+    {
+      "id": 509,
+      "type": "Call",
+      "subject": "Budget and Timeline Discussion",
+      "description": "Need to schedule follow-up call with Retail Dynamics to discuss available budget and desired implementation timeline.",
+      "companyId": 104,
+      "contactId": 207,
+      "opportunityId": 304,
+      "ownerId": 5,
+      "status": "Scheduled",
+      "priority": "Medium",
+      "dueDate": "2024-01-16",
+      "completedDate": null,
+      "duration": 30,
+      "outcome": null,
+      "createdDate": "2024-01-10"
+    },
+    {
+      "id": 510,
+      "type": "Meeting",
+      "subject": "Quarterly Business Review - TechVision",
+      "description": "Regular quarterly business review with TechVision Solutions. Review platform usage, discuss upcoming features, and identify expansion opportunities.",
+      "companyId": 101,
+      "contactId": 201,
+      "opportunityId": null,
+      "ownerId": 1,
+      "status": "Scheduled",
+      "priority": "Medium",
+      "dueDate": "2024-01-25",
+      "completedDate": null,
+      "duration": 90,
+      "outcome": null,
+      "createdDate": "2024-01-05"
+    }
+  ],
+  "notes": [
+    {
+      "id": 601,
+      "companyId": 101,
+      "contactId": 201,
+      "opportunityId": 301,
+      "authorId": 1,
+      "subject": "Contract Negotiation Notes",
+      "content": "David is very pleased with the current platform performance. The upgrade is driven by their expansion into European markets. They need multi-language support and GDPR compliance features. Legal team is reviewing our standard terms, but no major concerns expected. Timeline is tight due to their fiscal year-end planning.",
+      "createdDate": "2024-01-10T14:30:00Z",
+      "isPrivate": false,
+      "tags": [
+        "Negotiation",
+        "Requirements"
+      ]
+    },
+    {
+      "id": 602,
+      "companyId": 102,
+      "contactId": 203,
+      "opportunityId": 302,
+      "authorId": 2,
+      "subject": "Executive Team Dynamics",
+      "content": "Robert Johnson (Procurement) is our champion internally. Susan Davis (CFO) is cautious but supportive - she wants to see detailed ROI metrics. The CEO is on board but delegating decision to Robert and Susan. Manufacturing VP seemed skeptical initially but warmed up during the demo. Need to address their concerns about change management and employee training.",
+      "createdDate": "2024-01-12T16:45:00Z",
+      "isPrivate": true,
+      "tags": [
+        "Stakeholders",
+        "Internal Champion"
+      ]
+    },
+    {
+      "id": 603,
+      "companyId": 103,
+      "contactId": 205,
+      "opportunityId": 303,
+      "authorId": 3,
+      "subject": "Healthcare Compliance Requirements",
+      "content": "Dr. Brown emphasized that HIPAA compliance is non-negotiable. They're also subject to state-specific healthcare regulations in Massachusetts. Current EMR is Epic - need to verify our integration capabilities. Michael Taylor (IT Director) will be key technical stakeholder. They're interested in patient outcome analytics but concerned about data privacy.",
+      "createdDate": "2024-01-08T11:20:00Z",
+      "isPrivate": false,
+      "tags": [
+        "Compliance",
+        "Healthcare",
+        "Integration"
+      ]
+    },
+    {
+      "id": 604,
+      "companyId": 104,
+      "contactId": 207,
+      "opportunityId": 304,
+      "authorId": 5,
+      "subject": "Budget Constraints Discussion",
+      "content": "Amanda mentioned they're a startup-minded SMB with limited budget. The $75k price point may be a stretch. She's interested in the technology but needs to show clear ROI within 6 months. May need to explore a phased implementation approach or our SMB tier pricing. They're also evaluating two other vendors. Suggested starting with a pilot program to prove value.",
+      "createdDate": "2024-01-05T09:15:00Z",
+      "isPrivate": true,
+      "tags": [
+        "Budget",
+        "Pricing",
+        "SMB"
+      ]
+    },
+    {
+      "id": 605,
+      "companyId": 105,
+      "contactId": 208,
+      "opportunityId": 305,
+      "authorId": 2,
+      "subject": "Renewal Success Factors",
+      "content": "Christopher attributed the renewal success to our strong partnership over the past 3 years. He specifically mentioned our responsive support team and proactive feature updates. The 15% expansion is due to their acquisition of two smaller firms that need to be brought onto the platform. They're considering us for additional modules (mentioned risk analytics specifically). Great reference account for financial services prospects.",
+      "createdDate": "2024-01-05T17:00:00Z",
+      "isPrivate": false,
+      "tags": [
+        "Success Story",
+        "Reference",
+        "Expansion"
+      ]
+    },
+    {
+      "id": 606,
+      "companyId": 106,
+      "contactId": 210,
+      "opportunityId": 306,
+      "authorId": 3,
+      "subject": "Startup Founder Meeting Notes",
+      "content": "Daniel is passionate about using data to improve student outcomes. EduTech is pre-Series A funded and being careful with spend. They're piloting with 5 schools initially. If successful, they plan to scale to 50+ schools within 18 months. Main competitor is a homegrown solution, but they lack analytics depth. Daniel is the decision maker but wants to involve his Head of Product in the demo. Timing is good - they need solution in place before next school year.",
+      "createdDate": "2024-01-09T13:30:00Z",
+      "isPrivate": false,
+      "tags": [
+        "Startup",
+        "EdTech",
+        "Pilot"
+      ]
+    }
+  ],
+  "deals": [
+    {
+      "id": 701,
+      "opportunityId": 305,
+      "dealNumber": "DEAL-2024-001",
+      "companyId": 105,
+      "contactId": 208,
+      "ownerId": 2,
+      "totalValue": 890000,
+      "status": "Active",
+      "startDate": "2024-01-15",
+      "endDate": "2026-12-31",
+      "billingFrequency": "Annual",
+      "paymentTerms": "Net 30",
+      "products": [
+        {
+          "productId": 401,
+          "quantity": 1,
+          "price": 50000,
+          "discount": 0
+        },
+        {
+          "productId": 404,
+          "quantity": 2,
+          "price": 25000,
+          "discount": 5
+        },
+        {
+          "productId": 403,
+          "quantity": 10,
+          "price": 5000,
+          "discount": 10
+        },
+        {
+          "productId": 407,
+          "quantity": 1,
+          "price": 12000,
+          "discount": 0
+        }
+      ],
+      "signedDate": "2024-01-05",
+      "createdDate": "2024-01-05",
+      "tags": [
+        "Multi-Year",
+        "Enterprise",
+        "Renewal"
+      ]
+    },
+    {
+      "id": 702,
+      "opportunityId": 307,
+      "dealNumber": "DEAL-2023-089",
+      "companyId": 101,
+      "contactId": 202,
+      "ownerId": 1,
+      "totalValue": 125000,
+      "status": "Completed",
+      "startDate": "2024-01-01",
+      "endDate": "2024-06-30",
+      "billingFrequency": "Milestone",
+      "paymentTerms": "Net 30",
+      "products": [
+        {
+          "productId": 402,
+          "quantity": 1,
+          "price": 15000,
+          "discount": 0
+        }
+      ],
+      "signedDate": "2023-12-28",
+      "createdDate": "2023-12-28",
+      "completedDate": "2023-12-28",
+      "tags": [
+        "Services",
+        "Professional Services"
+      ]
+    }
+  ],
+  "campaigns": [
+    {
+      "id": 801,
+      "name": "Q1 2024 Enterprise Upsell Campaign",
+      "type": "Email",
+      "status": "Active",
+      "startDate": "2024-01-01",
+      "endDate": "2024-03-31",
+      "budget": 25000,
+      "targetAudience": "Existing Enterprise Customers",
+      "description": "Promote new platform features and advanced modules to existing enterprise customers for Q1 upgrades and renewals.",
+      "ownerId": 1,
+      "totalSent": 150,
+      "totalOpened": 98,
+      "totalClicked": 45,
+      "totalConverted": 8,
+      "createdDate": "2023-12-01",
+      "tags": [
+        "Upsell",
+        "Enterprise",
+        "Email"
+      ]
+    },
+    {
+      "id": 802,
+      "name": "Healthcare Industry Webinar Series",
+      "type": "Webinar",
+      "status": "Planned",
+      "startDate": "2024-02-15",
+      "endDate": "2024-04-30",
+      "budget": 15000,
+      "targetAudience": "Healthcare Executives and IT Leaders",
+      "description": "Three-part webinar series showcasing healthcare analytics use cases, HIPAA compliance features, and patient outcome improvements.",
+      "ownerId": 3,
+      "totalSent": 0,
+      "totalOpened": 0,
+      "totalClicked": 0,
+      "totalConverted": 0,
+      "createdDate": "2024-01-05",
+      "tags": [
+        "Healthcare",
+        "Webinar",
+        "Lead Gen"
+      ]
+    },
+    {
+      "id": 803,
+      "name": "Manufacturing Trade Show - AutoTech 2024",
+      "type": "Event",
+      "status": "Active",
+      "startDate": "2024-03-10",
+      "endDate": "2024-03-12",
+      "budget": 50000,
+      "targetAudience": "Manufacturing Executives and Operations Leaders",
+      "description": "Booth presence and speaking session at AutoTech 2024 conference focusing on IoT integration and predictive maintenance solutions.",
+      "ownerId": 2,
+      "totalSent": 0,
+      "totalOpened": 0,
+      "totalClicked": 0,
+      "totalConverted": 0,
+      "createdDate": "2023-11-20",
+      "tags": [
+        "Manufacturing",
+        "Trade Show",
+        "IoT"
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": 901,
+      "subject": "Prepare technical workshop materials for TechVision",
+      "description": "Create presentation and demo environment for technical workshop covering new analytics features and API capabilities.",
+      "assignedTo": 1,
+      "relatedTo": {
+        "type": "Opportunity",
+        "id": 301
+      },
+      "priority": "High",
+      "status": "In Progress",
+      "dueDate": "2024-01-17",
+      "createdDate": "2024-01-10",
+      "completedDate": null
+    },
+    {
+      "id": 902,
+      "subject": "Complete ROI analysis for Global Manufacturing",
+      "description": "Develop comprehensive ROI model including cost savings, efficiency gains, and implementation timeline for executive presentation on Jan 25th.",
+      "assignedTo": 2,
+      "relatedTo": {
+        "type": "Opportunity",
+        "id": 302
+      },
+      "priority": "High",
+      "status": "In Progress",
+      "dueDate": "2024-01-20",
+      "createdDate": "2024-01-12",
+      "completedDate": null
+    },
+    {
+      "id": 903,
+      "subject": "Schedule technical discovery with HealthFirst IT team",
+      "description": "Coordinate calendars for technical discovery session. Need to include Solutions Architect and Product Manager from our side.",
+      "assignedTo": 3,
+      "relatedTo": {
+        "type": "Opportunity",
+        "id": 303
+      },
+      "priority": "Medium",
+      "status": "Completed",
+      "dueDate": "2024-01-15",
+      "createdDate": "2024-01-08",
+      "completedDate": "2024-01-09"
+    },
+    {
+      "id": 904,
+      "subject": "Develop SMB pricing proposal for Retail Dynamics",
+      "description": "Work with pricing team to create flexible pricing options including phased implementation and pilot program approach.",
+      "assignedTo": 5,
+      "relatedTo": {
+        "type": "Opportunity",
+        "id": 304
+      },
+      "priority": "Medium",
+      "status": "Not Started",
+      "dueDate": "2024-01-19",
+      "createdDate": "2024-01-11",
+      "completedDate": null
+    },
+    {
+      "id": 905,
+      "subject": "Coordinate implementation kickoff for Financial Services Group",
+      "description": "Schedule and organize implementation kickoff meeting. Prepare project timeline, resource allocation, and success criteria.",
+      "assignedTo": 4,
+      "relatedTo": {
+        "type": "Deal",
+        "id": 701
+      },
+      "priority": "High",
+      "status": "In Progress",
+      "dueDate": "2024-01-15",
+      "createdDate": "2024-01-06",
+      "completedDate": null
+    },
+    {
+      "id": 906,
+      "subject": "Prepare demo for EduTech Innovations",
+      "description": "Customize demo to showcase student outcome tracking, engagement analytics, and reporting features relevant to K-12 education.",
+      "assignedTo": 3,
+      "relatedTo": {
+        "type": "Opportunity",
+        "id": 306
+      },
+      "priority": "High",
+      "status": "Not Started",
+      "dueDate": "2024-01-17",
+      "createdDate": "2024-01-09",
+      "completedDate": null
+    }
+  ],
+  "emails": [
+    {
+      "id": 1001,
+      "from": "sarah.mitchell@salesforge.com",
+      "to": [
+        "d.martinez@techvisionsolutions.com"
+      ],
+      "cc": [],
+      "subject": "RE: Q1 Platform Upgrade - Next Steps",
+      "body": "Hi David,\\n\\nThank you for the productive call yesterday. I'm excited about moving forward with the platform upgrade for Q1.\\n\\nAs discussed, I'll send over the technical requirements document by end of day tomorrow. Our solutions architect will be reaching out next week to schedule the technical workshop.\\n\\nIn the meantime, please let me know if you have any questions about the proposal.\\n\\nBest regards,\\nSarah",
+      "sentDate": "2024-01-10T15:30:00Z",
+      "companyId": 101,
+      "contactId": 201,
+      "opportunityId": 301,
+      "userId": 1,
+      "status": "Sent",
+      "hasAttachment": false
+    },
+    {
+      "id": 1002,
+      "from": "james.rodriguez@salesforge.com",
+      "to": [
+        "r.johnson@globalmanufacturing.com",
+        "s.davis@globalmanufacturing.com"
+      ],
+      "cc": [
+        "sarah.mitchell@salesforge.com"
+      ],
+      "subject": "Global Manufacturing - ROI Analysis Preview",
+      "body": "Robert and Susan,\\n\\nFollowing up on our executive presentation last week, I wanted to share a preview of the ROI analysis we're preparing for the January 25th committee meeting.\\n\\nKey highlights:\\n- Projected cost savings: $2.3M over 3 years\\n- Efficiency gains: 35% reduction in supply chain lead times\\n- Implementation timeline: 6-8 months\\n\\nI'll have the complete analysis ready by January 20th. Please let me know if you'd like to discuss any specific aspects in detail.\\n\\nBest,\\nJames",
+      "sentDate": "2024-01-13T10:15:00Z",
+      "companyId": 102,
+      "contactId": 203,
+      "opportunityId": 302,
+      "userId": 2,
+      "status": "Sent",
+      "hasAttachment": true
+    },
+    {
+      "id": 1003,
+      "from": "emily.chen@salesforge.com",
+      "to": [
+        "m.taylor@healthfirstmedical.com"
+      ],
+      "cc": [
+        "p.brown@healthfirstmedical.com"
+      ],
+      "subject": "Technical Discovery Session - January 22nd",
+      "body": "Hi Michael,\\n\\nI hope this email finds you well. I'm writing to confirm our technical discovery session scheduled for January 22nd at 2:00 PM EST.\\n\\nAttached is the agenda and a list of topics we'd like to cover, including:\\n- Current EMR system architecture\\n- Integration requirements and protocols\\n- Data security and HIPAA compliance needs\\n- User access and authentication\\n\\nPlease let me know if there are any additional stakeholders who should join the call.\\n\\nLooking forward to our discussion.\\n\\nBest regards,\\nEmily",
+      "sentDate": "2024-01-09T14:20:00Z",
+      "companyId": 103,
+      "contactId": 206,
+      "opportunityId": 303,
+      "userId": 3,
+      "status": "Sent",
+      "hasAttachment": true
+    }
+  ],
+  "quotes": [
+    {
+      "id": 1101,
+      "quoteNumber": "QT-2024-001",
+      "opportunityId": 301,
+      "companyId": 101,
+      "contactId": 201,
+      "ownerId": 1,
+      "status": "Accepted",
+      "validUntil": "2024-02-10",
+      "totalAmount": 297000,
+      "discount": 10,
+      "tax": 0,
+      "lineItems": [
+        {
+          "productId": 401,
+          "productName": "Enterprise Analytics Platform",
+          "quantity": 1,
+          "unitPrice": 50000,
+          "discount": 10,
+          "total": 45000
+        },
+        {
+          "productId": 403,
+          "productName": "Advanced User License Pack (50 users)",
+          "quantity": 50,
+          "unitPrice": 5000,
+          "discount": 10,
+          "total": 225000
+        },
+        {
+          "productId": 407,
+          "productName": "Premium Support Package",
+          "quantity": 1,
+          "unitPrice": 12000,
+          "discount": 0,
+          "total": 12000
+        },
+        {
+          "productId": 402,
+          "productName": "Professional Services - Implementation",
+          "quantity": 1,
+          "unitPrice": 15000,
+          "discount": 0,
+          "total": 15000
+        }
+      ],
+      "terms": "Payment due within 30 days of invoice. Implementation to begin within 2 weeks of contract signature.",
+      "notes": "Quote includes multi-language support and GDPR compliance features as discussed.",
+      "createdDate": "2024-01-11",
+      "acceptedDate": "2024-01-14"
+    },
+    {
+      "id": 1102,
+      "quoteNumber": "QT-2024-002",
+      "opportunityId": 302,
+      "companyId": 102,
+      "contactId": 203,
+      "ownerId": 2,
+      "status": "Pending",
+      "validUntil": "2024-02-28",
+      "totalAmount": 697250,
+      "discount": 5,
+      "tax": 0,
+      "lineItems": [
+        {
+          "productId": 401,
+          "productName": "Enterprise Analytics Platform",
+          "quantity": 1,
+          "unitPrice": 50000,
+          "discount": 5,
+          "total": 47500
+        },
+        {
+          "productId": 405,
+          "productName": "IoT Integration Suite",
+          "quantity": 3,
+          "unitPrice": 35000,
+          "discount": 5,
+          "total": 99750
+        },
+        {
+          "productId": 403,
+          "productName": "Advanced User License Pack (50 users)",
+          "quantity": 100,
+          "unitPrice": 5000,
+          "discount": 5,
+          "total": 475000
+        },
+        {
+          "productId": 402,
+          "productName": "Professional Services - Implementation",
+          "quantity": 5,
+          "unitPrice": 15000,
+          "discount": 0,
+          "total": 75000
+        }
+      ],
+      "terms": "Phased payment schedule over 18 months. Implementation timeline 6-8 months.",
+      "notes": "Quote includes comprehensive digital transformation package with IoT integration and predictive maintenance capabilities.",
+      "createdDate": "2024-01-12",
+      "acceptedDate": null
+    }
+  ]
+}
